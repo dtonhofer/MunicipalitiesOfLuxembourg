@@ -1,16 +1,70 @@
 MunicipalitiesOfLuxembourg
 ==========================
 
-Annoted polygons describing the municipalities of the [Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg), after the 2012 mergers.
+Annoted polygons describing the municipalities ("communes") of the
+[Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg) (after the 2012 mergers).
 
-Additional layers for the suburbs of the City of Luxembourg and the City of Ville d'Esch have been added. The polygons for these are a bit inexact though (see below).
+Additional layers for the suburbs ("quartiers") of the city of Luxembourg and the suburbs of the city of Esch-sur-Alzette have been added. 
+The polygons for these are a bit inexact though (see below).
 
-The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than OpenStreetMap have been used in the compilation.  
+The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than
+OpenStreetMap have been used in the compilation.
  
-The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), which can be read and processed by [OpenJump](http://www.openjump.org/).
+The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), 
+which can be read and processed by [OpenJUMP GIS](http://www.openjump.org/).
 
 ![Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/Municipalities_Screenshot.png "Grand-Duchy of Luxembourg")
 
+Files
+-----
+
+<table>
+
+<tr>
+<td>17 MiB</td>
+<td>OpenStreetMap_Input_Geometry.jml</td>
+<td>Original OSM data from BBBike.org (The "roads" in "Luxembourg.osm.gz"). Unneeded lines have been removed and some missing lines have been added</td>
+</tr>
+
+<tr>
+<td>27 KiB</td>
+<td>MunicipalitiesOfLuxembourg.jmp</td>
+<td>The OpenJUMP GIS project master file</td>
+</tr>
+
+<tr>
+<td>7.8 MiB</td>
+<td>Communes_du_Luxembourg_en_Polygones.jml</td>
+<td>Polygons for the country's municipalities</td>
+</tr>
+
+<tr>
+<td>75 KiB</td>
+<td>Quartiers_de_Esch_sur_Alzette.jml</td>
+<td>Polygons for the suburbs of the city of Esch-sur-Alzette</td>
+</tr>
+
+<tr>
+<td>226 KiB</td>
+<td>Quartiers_de_Luxembourg.jml</td>
+<td>Polygons for suburbs of the city of Luxembourg</td>
+</tr>
+
+</table>
+
+How to use this
+---------------
+
+   * Install [OpenJUMP GIS](http://www.openjump.org/).
+   * Clone the rpository using `git clone https://github.com/dtonhofer/MunicipalitiesOfLuxembourg.git` ... or you can 
+     simply download the files directly, as there aren't many.
+   * Start OpenJUMP GIS.
+   * Choose File > Open Project > "MunicipalitiesOfLuxembourg.jmp"
+   * OpenJUMP will complain about its inability to find files and will ask you whether to continue. Say YES.
+   * Select the file corresponding to name that OpenJUMP presents. It's a bit tiresome but not hard.
+   * The data has been loaded. From this point onwards, you are on your own!
+   * Check out the "attributes" of the layer objects for the names.
+   
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
 
