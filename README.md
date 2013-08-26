@@ -1,12 +1,18 @@
 MunicipalitiesOfLuxembourg
 ==========================
 
-Geodata for Municipalities of Luxembourg, based on OpenStreetMap (OSM) extract
+Annoted polygons describing the municipalities of the [Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg), after the 2012 mergers.
 
-![Municipalities of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/Municipalities_Screenshot.png "Image generated using OpenJUMP")
+Additional layers for the suburbs of the City of Luxembourg and the City of Ville d'Esch have been added. The polygons for these are a bit inexact though (see below).
 
-Fixes and Problems with the original data
------------------------------------------
+The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than OpenStreetMap have been used in the compilation.  
+ 
+The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), which can be read and processed by [OpenJump](http://www.openjump.org/).
+
+![Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/Municipalities_Screenshot.png "Grand-Duchy of Luxembourg")
+
+Fixes to and Problems with the original OSM data
+------------------------------------------------
 
 Major problems have been roughly fixed in the dataset, but not yet in OopenStreetMap.
  
