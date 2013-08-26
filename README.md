@@ -13,7 +13,7 @@ OpenStreetMap have been used in the compilation.
 The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), 
 which can be read and processed by [OpenJUMP GIS](http://www.openjump.org/).
 
-![Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/Municipalities_Screenshot.png "Grand-Duchy of Luxembourg")
+![Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Municipalities_Screenshot.png "Grand-Duchy of Luxembourg")
 
 Files
 -----
@@ -65,6 +65,10 @@ How to use this
    * The data has been loaded. From this point onwards, you are on your own!
    * Check out the "attributes" of the layer objects for the names.
    
+![OpenJUMP GIS in action](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Successful_Load.png "OpenJUMP GIS in action")
+
+![OpenJUMP GIS attribute view](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Attributes.png "OpenJUMP GIS attribute view")
+
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
 
