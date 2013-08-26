@@ -3,8 +3,13 @@ MunicipalitiesOfLuxembourg
 
 Geodata for Municipalities of Luxembourg, based on OpenStreetMap (OSM) extract
 
-Fixes and Problems with the original data (large problems have been roughly fixed in the dataset, but not in OSM)
+![Municipalities of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/Municipalities_Screenshot.png "Image generated using OpenJUMP")
 
+Fixes and Problems with the original data
+-----------------------------------------
+
+Major problems have been roughly fixed in the dataset, but not yet in OopenStreetMap.
+ 
    * The border between the suburbs of "Weimersdorf" and "Neudorf" of Luxembourg-City is missing in OSM; added
      a VERY APPROXIMATE line to separate those quarters. 
    * The southern part of the boundary between the suburbs of "Cessange" and "Gasperich" of Luxembourg-City 
