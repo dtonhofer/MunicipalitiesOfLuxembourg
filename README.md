@@ -8,8 +8,10 @@ Additional layers for the suburbs ("quartiers") of the city of Luxembourg and th
 The polygons for these are a bit inexact though (see below).
 
 The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than
-OpenStreetMap have been used in the compilation.
- 
+OpenStreetMap have been used in the compilation. Data is therefore available under [Open Data Commons Open Database License (ODbL) 1.0](http://opendatacommons.org/licenses/odbl/).
+
+Data has been created for a [Q-LEAP S.A.](http://www.q-leap.eu/) project.
+
 The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), 
 which can be read and processed by [OpenJUMP GIS](http://www.openjump.org/).
 
