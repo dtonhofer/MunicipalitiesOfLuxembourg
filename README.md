@@ -1,21 +1,37 @@
-MunicipalitiesOfLuxembourg
-==========================
+Municipalities Of Luxembourg
+============================
 
-Annoted polygons describing the municipalities ("communes") of the
-[Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg) (after the 2012 mergers).
+This repository contains a dataset of annoted polygons describing the municipalities ("communes") of the
+[Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg) (as they are after the 2012 mergers).
 
-Additional layers for the suburbs ("quartiers") of the city of Luxembourg and the suburbs of the city of Esch-sur-Alzette have been added. 
-The polygons for these are a bit inexact though (see below).
+Additionally, layers for polygons describing the suburbs ("quartiers") of the city of Luxembourg and the
+suburbs of the city of Esch-sur-Alzette have been added.  The polygons for these are a bit inexact though (see 
+below).
+
+This repository has been created for a [Q-LEAP S.A.](http://www.q-leap.eu/) project.
+
+Source and Licensing
+--------------------
 
 The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than
-OpenStreetMap have been used in the compilation. Data is therefore available under [Open Data Commons Open Database License (ODbL) 1.0](http://opendatacommons.org/licenses/odbl/).
+OpenStreetMap have been used in the compilation. Data is therefore available under
+[Open Data Commons Open Database License (ODbL) 1.0](http://opendatacommons.org/licenses/odbl/).
+See also [http://www.openstreetmap.org/copyright](OpenStreetMap Copyright and License)
 
-Data has been created for a [Q-LEAP S.A.](http://www.q-leap.eu/) project.
 
-The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language), 
+Format
+------
+
+The format used is [Geography Markup Language](http://en.wikipedia.org/wiki/Geography_Markup_Language) (actually OpenJump GML)
 which can be read and processed by [OpenJUMP GIS](http://www.openjump.org/).
 
-![Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Municipalities_Screenshot.png "Grand-Duchy of Luxembourg")
+Content
+-------
+
+![Municipalities of the Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Municipalities_Screenshot.png "Municipalities of the Grand-Duchy of Luxembourg")
+
+There are 106 municipalities, but there are two polygons for "Steinfort", which is separated into [two
+disjoint areas seprated by a highway](http://www.openstreetmap.org/#map=15/49.6338/5.8935).
 
 Files
 -----
@@ -90,3 +106,79 @@ Major problems have been roughly fixed in the dataset, but not yet in OopenStree
    * The suburb "Park" of Ville d'Esch is missing.
    * The suburb "Universiteit" of Ville d'Esch is missing.
    * Additional small errors in Ville d'Esch suburb borders do exist.
+
+TODOs
+-----
+
+   * Fix the problems with the suburb geometry
+   * It would also be nice to have the special sector of Findel Airport as a polygon
+   * The old, pref-merger municipalities should also be visible in a separate layer
+
+Notes on post-2000 changes
+--------------------------
+
+<table>
+
+<tr>
+<td>Bastendorf, Fouhren</td>
+<td>merged into</td>
+<td>Tandel</td>
+</tr>
+
+<tr>
+<td>Wilwerwiltz, Kautenbach</td>
+<td>merged into</td>
+<td>Kiischpelt</td>
+</tr>
+
+<tr>
+<td>Remerschen</td>
+<td>renamed to</td>
+<td>Schengen</td>
+</tr>
+
+<tr>
+<td>Bettborn</td>
+<td>renamed to</td>
+<td>Préizerdaul</td>
+</tr>
+
+<tr>
+<td>Clervaux, Heinerscheid, Munshausen</td>
+<td>merged into</td>
+<td>Clervaux</td>
+</tr>
+
+<tr>
+<td>Ermsdorf, Medernach</td>
+<td>merged into</td>
+<td>Vallée de l'Ernz</td>
+</tr>
+
+<tr>
+<td>Esch-sur-Sûre, Heiderscheid, Neunhausen</td>
+<td>merged into</td>
+<td>Esch-sur-Sûre</td>
+</tr>
+
+<tr>
+<td>Bascharage, Clemency</td>
+<td>merged into</td>
+<td>Käerjeng</td>
+</tr>
+
+<tr>
+<td>Consthum, Hoscheid, Hosingen</td>
+<td>merged into</td>
+<td>Parc Hosingen</td>
+</tr>
+
+<tr>
+<td>Burmerange, Schengen, Wellenstein</td>
+<td>merged into</td>
+<td>Schengen</td>
+</tr>
+
+</table>
+    
+
