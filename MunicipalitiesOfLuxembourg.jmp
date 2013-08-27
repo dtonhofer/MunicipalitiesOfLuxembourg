@@ -20,7 +20,7 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">MunicipalitiesOfLuxembourg/Quartiers_de_Luxembourg.jml</value>
+                <value class="java.lang.String">Quartiers_de_Luxembourg.jml</value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -116,7 +116,7 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">MunicipalitiesOfLuxembourg/Quartiers_de_Esch_sur_Alzette.jml</value>
+                <value class="java.lang.String">Quartiers_de_Esch_sur_Alzette.jml</value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -233,7 +233,7 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">MunicipalitiesOfLuxembourg/OpenStreetMap_Input_Geometry.jml</value>
+                <value class="java.lang.String">OpenStreetMap_Input_Geometry.jml</value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -308,7 +308,7 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">MunicipalitiesOfLuxembourg/Communes_du_Luxembourg_en_Polygones.jml</value>
+                <value class="java.lang.String">Communes_du_Luxembourg_en_Polygones.jml</value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">AttributeColumnsWidthMap</key>
