@@ -112,6 +112,7 @@ Some problems have been roughly fixed in the dataset, but not yet in OpenStreetM
       * The suburb "Park" of Esch is missing.
       * The suburb "Universiteit" of Esch is missing.
       * Additional small errors in Esch suburb borders do exist and need fixing.
+      * Note that the address database of "Administration du Cadastre" lists no suburbs for Esch at all.
 
 TODOs
 -----
