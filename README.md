@@ -1,5 +1,5 @@
-Municipalities Of Luxembourg
-============================
+Municipalities (Communes) Of Luxembourg
+=======================================
 
 This repository contains a dataset of annoted polygons describing the municipalities ("communes") of the
 [Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg) (as they are after the 2012 mergers).
@@ -129,6 +129,12 @@ References for suburbs
    * Names of the suburbs of the city of Esch can be found at the Website of Ville d'Esch.
      There is a [static map](http://www.esch.lu/SiteCollectionDocuments/plans/web_planquartiers.jpg) and an
      [interactive map](http://www.topographie.esch.lu/), which are not fully consistent.
+
+Online info about communes
+--------------------------
+
+   * http://www.luxembourg.public.lu/fr/tourisme/cartes/communes/index.html
+   * http://www.geologie.lu/index.php/geolux/pubs/71-geocom
 
 Notes on post-2000 changes
 --------------------------
