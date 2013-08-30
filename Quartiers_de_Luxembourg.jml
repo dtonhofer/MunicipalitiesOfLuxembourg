@@ -23,6 +23,12 @@
           <valueElement elementName="property" attributeName="name" attributeValue="NOTES"/>
           <valueLocation position="body"/>
      </column>
+     <column>
+          <name>ID</name>
+          <type>INTEGER</type>
+          <valueElement elementName="property" attributeName="name" attributeValue="ID"/>
+          <valueLocation position="body"/>
+     </column>
 </ColumnDefinitions>
 </JCSGMLInputTemplate>
 
@@ -387,7 +393,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Bonnevoie</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">This should be separated into Bonnevoie-Nord (Verlorenkost) and Bonnevoie-Sud; these two parts are listed separately in DB of Adm. Cadastre</property>
+          <property name="ID">3</property>
      </feature>
 
      <feature> 
@@ -871,7 +878,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Hamm</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">13</property>
      </feature>
 
      <feature> 
@@ -1005,7 +1013,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Pulvermühl</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">21</property>
      </feature>
 
      <feature> 
@@ -1138,7 +1147,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Limpertsberg</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">16</property>
      </feature>
 
      <feature> 
@@ -1354,7 +1364,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Kirchberg</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">15</property>
      </feature>
 
      <feature> 
@@ -1514,7 +1525,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Weimerskirch</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">24</property>
      </feature>
 
      <feature> 
@@ -1678,7 +1690,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Mühlenbach</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre (but wrongly as &quot;Muhlenbach&quot;)</property>
+          <property name="ID">18</property>
      </feature>
 
      <feature> 
@@ -1765,7 +1778,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Clausen</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">7</property>
      </feature>
 
      <feature> 
@@ -1952,7 +1966,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Belair</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">2</property>
      </feature>
 
      <feature> 
@@ -2101,7 +2116,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Hollerich</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">14</property>
      </feature>
 
      <feature> 
@@ -2477,7 +2493,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Merl</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">17</property>
      </feature>
 
      <feature> 
@@ -2711,7 +2728,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Beggen</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">1</property>
      </feature>
 
      <feature> 
@@ -3068,7 +3086,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Dommeldange</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">8</property>
      </feature>
 
      <feature> 
@@ -3212,7 +3231,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Grund</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">12</property>
      </feature>
 
      <feature> 
@@ -3386,7 +3406,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Neudorf</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">19</property>
      </feature>
 
      <feature> 
@@ -3530,7 +3551,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Gare</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">10</property>
      </feature>
 
      <feature> 
@@ -3650,7 +3672,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Eich</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">9</property>
      </feature>
 
      <feature> 
@@ -3742,7 +3765,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Weimershof</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Not listed in DB of Adm. Cadastre, which collects &quot;Neudorf&quot; and &quot;Weimershof&quot; into &quot;Neudorf&quot;</property>
+          <property name="ID">23</property>
      </feature>
 
      <feature> 
@@ -3897,7 +3921,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Cents</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">5</property>
      </feature>
 
      <feature> 
@@ -4049,7 +4074,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Pfaffenthal</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">20</property>
      </feature>
 
      <feature> 
@@ -4507,7 +4533,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Rollingergrund</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">22</property>
      </feature>
 
      <feature> 
@@ -4695,7 +4722,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Centre</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre (as &quot;Ville Haute&quot;)</property>
+          <property name="ID">4</property>
      </feature>
 
      <feature> 
@@ -4976,7 +5004,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Cessingen</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre (as &quot;Cessange&quot;, i.e. in french)</property>
+          <property name="ID">6</property>
      </feature>
 
      <feature> 
@@ -5321,7 +5350,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_LUXEMBOURG_VILLE</property>
           <property name="NAME">Gasperich</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Listed in DB of Adm. Cadastre</property>
+          <property name="ID">11</property>
      </feature>
 
      </featureCollection>

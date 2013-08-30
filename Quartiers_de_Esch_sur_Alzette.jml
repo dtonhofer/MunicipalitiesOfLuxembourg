@@ -23,6 +23,12 @@
           <valueElement elementName="property" attributeName="name" attributeValue="NOTES"/>
           <valueLocation position="body"/>
      </column>
+     <column>
+          <name>ID</name>
+          <type>INTEGER</type>
+          <valueElement elementName="property" attributeName="name" attributeValue="ID"/>
+          <valueLocation position="body"/>
+     </column>
 </ColumnDefinitions>
 </JCSGMLInputTemplate>
 
@@ -64,6 +70,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Brill</property>
           <property name="NOTES"></property>
+          <property name="ID">3</property>
      </feature>
 
      <feature> 
@@ -111,6 +118,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Dellhéicht</property>
           <property name="NOTES"></property>
+          <property name="ID">5</property>
      </feature>
 
      <feature> 
@@ -152,6 +160,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Bruch</property>
           <property name="NOTES"></property>
+          <property name="ID">4</property>
      </feature>
 
      <feature> 
@@ -243,6 +252,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Zaepert</property>
           <property name="NOTES"></property>
+          <property name="ID">21</property>
      </feature>
 
      <feature> 
@@ -331,7 +341,8 @@
           </geometry>
           <property name="TYPE">ZONE_INDUSTRIELLE_VILLE_ESCH</property>
           <property name="NAME">ZI Arbed Esch/Schifflange</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Hosts the torn-down remains of heavy steel industry</property>
+          <property name="ID">19</property>
      </feature>
 
      <feature> 
@@ -376,6 +387,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Uecht</property>
           <property name="NOTES"></property>
+          <property name="ID">15</property>
      </feature>
 
      <feature> 
@@ -463,6 +475,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Sommet</property>
           <property name="NOTES"></property>
+          <property name="ID">14</property>
      </feature>
 
      <feature> 
@@ -560,7 +573,8 @@
           </geometry>
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Lankelz</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Amazingly, rue &quot;Lankelz&quot; is in &quot;Zaepert&quot;</property>
+          <property name="ID">9</property>
      </feature>
 
      <feature> 
@@ -683,6 +697,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Universitéit</property>
           <property name="NOTES"></property>
+          <property name="ID">16</property>
      </feature>
 
      <feature> 
@@ -826,7 +841,8 @@
           </geometry>
           <property name="TYPE">ZONE_INDUSTRIELLE_VILLE_ESCH</property>
           <property name="NAME">ZI Arbed Esch/Belval</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Hosts the torn-down remains of heavy steel industry</property>
+          <property name="ID">18</property>
      </feature>
 
      <feature> 
@@ -920,6 +936,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Belval</property>
           <property name="NOTES"></property>
+          <property name="ID">2</property>
      </feature>
 
      <feature> 
@@ -1113,6 +1130,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Raemerich</property>
           <property name="NOTES"></property>
+          <property name="ID">12</property>
      </feature>
 
      <feature> 
@@ -1213,6 +1231,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Grenz</property>
           <property name="NOTES"></property>
+          <property name="ID">7</property>
      </feature>
 
      <feature> 
@@ -1314,6 +1333,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Lalleng</property>
           <property name="NOTES"></property>
+          <property name="ID">8</property>
      </feature>
 
      <feature> 
@@ -1356,7 +1376,8 @@
           </geometry>
           <property name="TYPE">ZONE_INDUSTRIELLE_VILLE_ESCH</property>
           <property name="NAME">ZI Esch/Schifflange</property>
-          <property name="NOTES"></property>
+          <property name="NOTES">Also called &quot;Monkeler&quot; but &quot;Monkeler&quot; is part of Commune de Schifflange</property>
+          <property name="ID">20</property>
      </feature>
 
      <feature> 
@@ -1394,6 +1415,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Wobrëcken</property>
           <property name="NOTES"></property>
+          <property name="ID">17</property>
      </feature>
 
      <feature> 
@@ -1419,6 +1441,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Fettmeth</property>
           <property name="NOTES"></property>
+          <property name="ID">6</property>
      </feature>
 
      <feature> 
@@ -1452,6 +1475,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Schlassgoart</property>
           <property name="NOTES"></property>
+          <property name="ID">13</property>
      </feature>
 
      <feature> 
@@ -1708,6 +1732,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Neiduerf</property>
           <property name="NOTES"></property>
+          <property name="ID">10</property>
      </feature>
 
      <feature> 
@@ -1730,6 +1755,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Park</property>
           <property name="NOTES"></property>
+          <property name="ID">11</property>
      </feature>
 
      <feature> 
@@ -1768,6 +1794,7 @@
           <property name="TYPE">QUARTIER_VILLE_ESCH</property>
           <property name="NAME">Al Esch</property>
           <property name="NOTES"></property>
+          <property name="ID">1</property>
      </feature>
 
      </featureCollection>

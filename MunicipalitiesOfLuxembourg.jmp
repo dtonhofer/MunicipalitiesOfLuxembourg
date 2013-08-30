@@ -3,7 +3,7 @@
   <properties class="java.util.HashMap" />
   <windowLocation X="5" Y="5" />
   <windowSize width="680" height="380" />
-  <windowZoom left="627834.0342887173" right="738956.2430032075" bottom="6345726.906792041" top="6420529.01616016" />
+  <windowZoom left="661937.2706443225" right="672799.0841105538" bottom="6358438.169047637" top="6364310.456893338" />
   <maximized>true</maximized>
   <layers>
     <category name="Working" />
@@ -20,7 +20,36 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">Quartiers_de_Luxembourg.jml</value>
+                <value class="java.lang.String">/home/hobbes/MunicipalitiesOfLuxembourg/Quartiers_de_Luxembourg.jml</value>
+              </mapping>
+              <mapping>
+                <key class="java.lang.String">AttributeColumnsWidthMap</key>
+                <value class="java.util.HashMap">
+                  <mapping>
+                    <key class="java.lang.String">ID</key>
+                    <value class="java.lang.Integer">241</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">FID</key>
+                    <value class="java.lang.Integer">39</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String" />
+                    <value class="java.lang.Integer">16</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">NAME</key>
+                    <value class="java.lang.Integer">153</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">NOTES</key>
+                    <value class="java.lang.Integer">370</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">TYPE</key>
+                    <value class="java.lang.Integer">233</value>
+                  </mapping>
+                </value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -103,6 +132,7 @@
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
+        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="Quartiers_de_Esch_sur_Alzette" visible="true" editable="true" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
@@ -116,7 +146,36 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">Quartiers_de_Esch_sur_Alzette.jml</value>
+                <value class="java.lang.String">/home/hobbes/MunicipalitiesOfLuxembourg/Quartiers_de_Esch_sur_Alzette.jml</value>
+              </mapping>
+              <mapping>
+                <key class="java.lang.String">AttributeColumnsWidthMap</key>
+                <value class="java.util.HashMap">
+                  <mapping>
+                    <key class="java.lang.String">ID</key>
+                    <value class="java.lang.Integer">357</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">FID</key>
+                    <value class="java.lang.Integer">39</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String" />
+                    <value class="java.lang.Integer">16</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">NAME</key>
+                    <value class="java.lang.Integer">267</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">NOTES</key>
+                    <value class="java.lang.Integer">491</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">TYPE</key>
+                    <value class="java.lang.Integer">321</value>
+                  </mapping>
+                </value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -220,6 +279,7 @@
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
+        <feature-schema-operation>NULL</feature-schema-operation>
       </layer>
       <layer class="com.vividsolutions.jump.workbench.model.Layer" name="OpenStreetMap_Input_Geometry" visible="false" editable="true" selectable="true" read-only="false" drawnLast="false" synchronizedLineColor="true">
         <scaleDependentRendering enabled="false">
@@ -233,7 +293,36 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">OpenStreetMap_Input_Geometry.jml</value>
+                <value class="java.lang.String">/home/hobbes/MunicipalitiesOfLuxembourg/OpenStreetMap_Input_Geometry.jml</value>
+              </mapping>
+              <mapping>
+                <key class="java.lang.String">AttributeColumnsWidthMap</key>
+                <value class="java.util.HashMap">
+                  <mapping>
+                    <key class="java.lang.String">ID</key>
+                    <value class="java.lang.Integer">29</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">osm_id</key>
+                    <value class="java.lang.Integer">60</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">FID</key>
+                    <value class="java.lang.Integer">36</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String" />
+                    <value class="java.lang.Integer">16</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">desc</key>
+                    <value class="java.lang.Integer">47</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">type</key>
+                    <value class="java.lang.Integer">44</value>
+                  </mapping>
+                </value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">Coordinate System</key>
@@ -308,7 +397,7 @@
             <properties class="java.util.HashMap">
               <mapping>
                 <key class="java.lang.String">File</key>
-                <value class="java.lang.String">Communes_du_Luxembourg_en_Polygones.jml</value>
+                <value class="java.lang.String">/home/hobbes/MunicipalitiesOfLuxembourg/Communes_du_Luxembourg_en_Polygones.jml</value>
               </mapping>
               <mapping>
                 <key class="java.lang.String">AttributeColumnsWidthMap</key>
@@ -319,19 +408,27 @@
                   </mapping>
                   <mapping>
                     <key class="java.lang.String">FID</key>
-                    <value class="java.lang.Integer">39</value>
+                    <value class="java.lang.Integer">36</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String" />
+                    <value class="java.lang.Integer">16</value>
                   </mapping>
                   <mapping>
                     <key class="java.lang.String">NAME</key>
-                    <value class="java.lang.Integer">75</value>
+                    <value class="java.lang.Integer">179</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">ID</key>
+                    <value class="java.lang.Integer">313</value>
+                  </mapping>
+                  <mapping>
+                    <key class="java.lang.String">NOTES</key>
+                    <value class="java.lang.Integer">105</value>
                   </mapping>
                   <mapping>
                     <key class="java.lang.String">TYPE</key>
                     <value class="java.lang.Integer">70</value>
-                  </mapping>
-                  <mapping>
-                    <key class="java.lang.String">NOTES</key>
-                    <value class="java.lang.Integer">58</value>
                   </mapping>
                 </value>
               </mapping>
@@ -433,6 +530,7 @@
             <horizontalPosition>CENTER</horizontalPosition>
           </style>
         </styles>
+        <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
         <feature-schema-operation>NULL</feature-schema-operation>
