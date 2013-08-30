@@ -114,6 +114,15 @@ TODOs
    * It would also be nice to have the special sector of Findel Airport as a polygon
    * The old, pref-merger municipalities should also be visible in a separate layer
 
+Notes on suburbs
+----------------
+
+   * Names of the suburbs of the city of Luxembourg can be found at the
+     [Website of the City of Luxembourg](http://www.vdl.lu/Environnement+et+Urbanisme/D%C3%A9veloppement+urbain/Les+24+quartiers+de+la+Ville.html)
+   * Names of the suburbs of the city of Esch can be found at the Website of Ville d'Esch.
+     There is a [static map](http://www.esch.lu/SiteCollectionDocuments/plans/web_planquartiers.jpg) and an
+     [interactive map](http://www.topographie.esch.lu/), which are not fully consistent.
+
 Notes on post-2000 changes
 --------------------------
 
