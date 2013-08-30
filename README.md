@@ -90,32 +90,38 @@ How to use this
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
 
-Major problems have been roughly fixed in the dataset, but not yet in OopenStreetMap.
+Some problems have been roughly fixed in the dataset, but not yet in OpenStreetMap.
  
-   * The border between the suburbs of "Weimersdorf" and "Neudorf" of Luxembourg-City is missing in OSM; added
-     a VERY APPROXIMATE line to separate those quarters. 
-   * The southern part of the boundary between the suburbs of "Cessange" and "Gasperich" of Luxembourg-City 
-     does not seem correct in OSM.
-   * Additional small errors in Luxembourg-City suburb borders do exist when comparing to the offical maps by eye. 
-     A fix in OSM is needed, the corresponding geographic boundaries should be easily discoverable.
-   * The suburb "Belval" of the city of Ville d'Esch is not defined.
-   * The suburb "Lalleng" of the city of Ville d'Esch is not defined.
-   * The southern border of suburb "Neiduerf" of Ville d'Esch is not defined. 
-   * The eastern boundary of suburb "Schlassgoard" of Ville d'Esch is not defined. 
-   * The southern boundary of suburb "Grenz" of Ville d'Esch is wrong.
-   * The suburb "Park" of Ville d'Esch is missing.
-   * The suburb "Universiteit" of Ville d'Esch is missing.
-   * Additional small errors in Ville d'Esch suburb borders do exist.
+   * Suburbs of City of Luxembourg ("VdL")
+      * The border between the suburbs of "Weimersdorf" and "Neudorf" of VdL is missing in OSM. I added
+        a VERY APPROXIMATE line to separate those quarters. The address database of "Administration du Cadastre"
+        just lists "Neudorf", collecting "Weimersdorf" and "Neudorf" into a single unit.
+      * The address database of "Administration du Cadastre" lists the suburb of "Bonnevoie" as listed as two entries,
+      * "Bonnevoie-Nord (Verlorenkost)" and "Bonnevoie". The website of VdL lists this as a single suburb.
+        One should maybe add this subdivision.
+      * The southern part of the boundary between the suburbs of "Cessange" and "Gasperich" of VdL 
+        does not seem correct in OSM.
+      * Additional small errors in VdL suburb borders do exist when comparing to the offical maps by eye. 
+        A fix in OSM is needed, the corresponding geographic boundaries should be easily discoverable.
+   * Suburbs of City of Esch/Alzette ("Esch")
+      * The suburb "Belval" of Esch is not defined.
+      * The suburb "Lalleng" of Esch is not defined.
+      * The southern border of suburb "Neiduerf" of Esch is not defined. 
+      * The eastern boundary of suburb "Schlassgoard" of Esch is not defined. 
+      * The southern boundary of suburb "Grenz" of Esch is plain wrong.
+      * The suburb "Park" of Esch is missing.
+      * The suburb "Universiteit" of Esch is missing.
+      * Additional small errors in Esch suburb borders do exist and need fixing.
 
 TODOs
 -----
 
-   * Fix the problems with the suburb geometry
-   * It would also be nice to have the special sector of Findel Airport as a polygon
-   * The old, pref-merger municipalities should also be visible in a separate layer
+   * Fix the problems with the suburb geometry.
+   * It would also be nice to have the special sector of Findel Airport as a polygon!
+   * The old, pref-merger municipalities should also be visible in a separate layer.
 
-Notes on suburbs
-----------------
+References for suburbs
+----------------------
 
    * Names of the suburbs of the city of Luxembourg can be found at the
      [Website of the City of Luxembourg](http://www.vdl.lu/Environnement+et+Urbanisme/D%C3%A9veloppement+urbain/Les+24+quartiers+de+la+Ville.html)
