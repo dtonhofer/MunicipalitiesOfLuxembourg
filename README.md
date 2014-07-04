@@ -31,7 +31,7 @@ Content
 ![Municipalities of the Grand-Duchy of Luxembourg](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Municipalities_Screenshot.png "Municipalities of the Grand-Duchy of Luxembourg")
 
 There are 106 municipalities, but there are two polygons for "Steinfort", which is separated into [two
-disjoint areas seprated by a highway](http://www.openstreetmap.org/#map=15/49.6338/5.8935).
+disjoint areas separated by a highway](http://www.openstreetmap.org/#map=15/49.6338/5.8935).
 
 Files
 -----
