@@ -74,18 +74,24 @@ How to use this
 ---------------
 
    * Install [OpenJUMP GIS](http://www.openjump.org/).
-   * Clone the rpository using `git clone https://github.com/dtonhofer/MunicipalitiesOfLuxembourg.git` ... or you can 
-     simply download the files directly, as there aren't many.
+   * Clone the repository using `git clone https://github.com/dtonhofer/MunicipalitiesOfLuxembourg.git` ... or you can simply download the files individually.<F5>
    * Start OpenJUMP GIS.
-   * Choose File > Open Project > "MunicipalitiesOfLuxembourg.jmp"
-   * OpenJUMP will complain about its inability to find files and will ask you whether to continue. Say YES.
-   * Select the file corresponding to name that OpenJUMP presents. It's a bit tiresome but not hard.
-   * The data has been loaded. From this point onwards, you are on your own!
-   * Check out the "attributes" of the layer objects for the names.
-   
+   * Select: File > Open Project > "MunicipalitiesOfLuxembourg.jmp"
+   * (OpenJUMP might complain about its inability to find files and will ask you whether to continue. Say YES. Select the correct file corresponding to name that OpenJUMP presents. It's a bit tiresome but not hard. This problem has been fixed in current versions of OpenJUMP)
+   * The data has been loaded. The "System" category shows:
+       * A layer for the suburbs of Luxembourg 
+       * A layer for the suburbs of Esch/Alzette
+       * A layer for the original gemoetry loaded from OpenStreetMap
+       * A layer for the polygons of the municipalities
+
 ![OpenJUMP GIS in action](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Successful_Load.png "OpenJUMP GIS in action")
 
+   * Check out the "attributes" of the layer objects for the names associated to the polygons.
+
 ![OpenJUMP GIS attribute view](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Attributes.png "OpenJUMP GIS attribute view")
+
+   * You may want to write the data loaded to a PostGIS table. Right-click on the layer you want to save, then select "Save Dataset As". Set the format to "PostGIS table (new)". You can add a separate primary key column, or alter the table afterwards by declaring column "ID" as primary key.
+
 
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
