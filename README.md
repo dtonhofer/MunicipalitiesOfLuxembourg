@@ -16,7 +16,7 @@ Source and Licensing
 The geometry data is based on an OpenStreetMap (OSM) extract. No databases other than
 OpenStreetMap have been used in the compilation. Data is therefore available under
 [Open Data Commons Open Database License (ODbL) 1.0](http://opendatacommons.org/licenses/odbl/).
-See also [http://www.openstreetmap.org/copyright](OpenStreetMap Copyright and License)
+See also [OpenStreetMap Copyright and License](http://www.openstreetmap.org/copyright).
 
 
 Format
