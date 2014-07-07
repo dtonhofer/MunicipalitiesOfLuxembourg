@@ -78,7 +78,8 @@ How to use this
    * Start OpenJUMP GIS.
    * Select: File > Open Project > "MunicipalitiesOfLuxembourg.jmp". Make sure you selected the "Open Project" action, not the "Open File" action.
 
-![OpenJUMP GIS - opening the project](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Open_Project_Dialog.png "OpenJUMP GIS - opening the project")
+![OpenJUMP GIS - opening the project](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Open_Project_Di:w
+alog.png "OpenJUMP GIS - opening the project")
 
    * (OpenJUMP might complain about its inability to find files and will ask you whether to continue. Say YES. Select the correct file corresponding to the name that OpenJUMP presents. It's a bit tiresome but not hard. This problem has been fixed in current versions of OpenJUMP)
    * The data has been loaded. The "System" category shows:
@@ -94,9 +95,9 @@ How to use this
 ![OpenJUMP GIS attribute view](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Attributes.png "OpenJUMP GIS attribute view")
 
    * You may want to write the loaded data to a PostGIS table. For this, you must have a properly running and configured PostgreSQL server with the PostGIS extension. Right-click on the layer you want to save, then select "Save Dataset As". Set the format to "PostGIS table (new)". Fill in the server's coordinates. Fill in the name of the target table - to avoid running into problems and having to use quotes in PostgreSQL queries, I recommend using lowercase letters only for the table name. Unfortunately there is no option to force PostGIS to lowercase column names. You can add a separate primary key column (tick the appropriate box), or alter the table afterwards by declaring column "id" as primary key, like so:
-       1 ALTER TABLE polygones_luxembourg DROP COLUMN gid;
-       2 CREATE UNIQUE INDEX pollux_idx ON polygones_luxembourg("ID"); (See [Create Index](http://www.postgresql.org/docs/9.3/static/sql-createindex.html))
-       3 ALTER TABLE polygones_luxembourg ADD PRIMARY KEY USING INDEX pollux_idx; (See [Alter Table](http://www.postgresql.org/docs/9.3/static/sql-altertable.html))
+       - ALTER TABLE polygones_luxembourg DROP COLUMN gid;
+       - CREATE UNIQUE INDEX pollux_idx ON polygones_luxembourg("ID"); (See [Create Index](http://www.postgresql.org/docs/9.3/static/sql-createindex.html))
+       - ALTER TABLE polygones_luxembourg ADD PRIMARY KEY USING INDEX pollux_idx; (See [Alter Table](http://www.postgresql.org/docs/9.3/static/sql-altertable.html))
 
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
