@@ -76,12 +76,15 @@ How to use this
    * Install [OpenJUMP GIS](http://www.openjump.org/).
    * Clone the repository using `git clone https://github.com/dtonhofer/MunicipalitiesOfLuxembourg.git` ... or you can simply download the files individually.<F5>
    * Start OpenJUMP GIS.
-   * Select: File > Open Project > "MunicipalitiesOfLuxembourg.jmp"
-   * (OpenJUMP might complain about its inability to find files and will ask you whether to continue. Say YES. Select the correct file corresponding to name that OpenJUMP presents. It's a bit tiresome but not hard. This problem has been fixed in current versions of OpenJUMP)
+   * Select: File > Open Project > "MunicipalitiesOfLuxembourg.jmp". Make sure you selected the "Open Project" action, not the "Open File" action.
+
+![OpenJUMP GIS - opening the project](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Open_Project_Dialog.png "OpenJUMP GIS - opening the project")
+
+   * (OpenJUMP might complain about its inability to find files and will ask you whether to continue. Say YES. Select the correct file corresponding to the name that OpenJUMP presents. It's a bit tiresome but not hard. This problem has been fixed in current versions of OpenJUMP)
    * The data has been loaded. The "System" category shows:
-       * A layer for the suburbs of Luxembourg 
-       * A layer for the suburbs of Esch/Alzette
-       * A layer for the original gemoetry loaded from OpenStreetMap
+       * A layer for the suburbs of the city of Luxembourg 
+       * A layer for the suburbs of the city of Esch/Alzette
+       * A layer for the original geometry loaded from OpenStreetMap
        * A layer for the polygons of the municipalities
 
 ![OpenJUMP GIS in action](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Successful_Load.png "OpenJUMP GIS in action")
@@ -90,8 +93,10 @@ How to use this
 
 ![OpenJUMP GIS attribute view](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Attributes.png "OpenJUMP GIS attribute view")
 
-   * You may want to write the data loaded to a PostGIS table. Right-click on the layer you want to save, then select "Save Dataset As". Set the format to "PostGIS table (new)". You can add a separate primary key column, or alter the table afterwards by declaring column "ID" as primary key.
-
+   * You may want to write the loaded data to a PostGIS table. For this, you must have a properly running and configured PostgreSQL server with the PostGIS extension. Right-click on the layer you want to save, then select "Save Dataset As". Set the format to "PostGIS table (new)". Fill in the server's coordinates. Fill in the name of the target table - to avoid running into problems and having to use quotes in PostgreSQL queries, I recommend using lowercase letters only for the table name. Unfortunately there is no option to force PostGIS to lowercase column names. You can add a separate primary key column (tick the appropriate box), or alter the table afterwards by declaring column "id" as primary key, like so:
+       1 ALTER TABLE polygones_luxembourg DROP COLUMN gid;
+       2 CREATE UNIQUE INDEX pollux_idx ON polygones_luxembourg("ID"); (See [Create Index](http://www.postgresql.org/docs/9.3/static/sql-createindex.html))
+       3 ALTER TABLE polygones_luxembourg ADD PRIMARY KEY USING INDEX pollux_idx; (See [Alter Table](http://www.postgresql.org/docs/9.3/static/sql-altertable.html))
 
 Fixes to and Problems with the original OSM data
 ------------------------------------------------
