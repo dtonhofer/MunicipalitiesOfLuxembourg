@@ -78,8 +78,7 @@ How to use this
    * Start OpenJUMP GIS.
    * Select: File > Open Project > "MunicipalitiesOfLuxembourg.jmp". Make sure you selected the "Open Project" action, not the "Open File" action.
 
-![OpenJUMP GIS - opening the project](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Open_Project_Di:w
-alog.png "OpenJUMP GIS - opening the project")
+![OpenJUMP GIS - opening the project](https://raw.github.com/dtonhofer/MunicipalitiesOfLuxembourg/master/images/Open_Project_Dialog.png "OpenJUMP GIS - opening the project")
 
    * (OpenJUMP might complain about its inability to find files and will ask you whether to continue. Say YES. Select the correct file corresponding to the name that OpenJUMP presents. It's a bit tiresome but not hard. This problem has been fixed in current versions of OpenJUMP)
    * The data has been loaded. The "System" category shows:
