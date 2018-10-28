@@ -1,6 +1,16 @@
 Municipalities (Communes) Of Luxembourg
 =======================================
 
+Status
+------
+
+- Released in August 2013
+- Unmaintained, of historical interest only
+- GIS question? Check out [gis.stackexchange.com](https://gis.stackexchange.com/)
+
+What
+----
+
 This repository contains a dataset of annoted polygons describing the municipalities ("communes") of the
 [Grand-Duchy of Luxembourg](http://en.wikipedia.org/wiki/Luxembourg) (as they are after the 2012 mergers).
 
