@@ -7,6 +7,7 @@ Status
 - Released in August 2013
 - Unmaintained, of historical interest only
 - GIS question? Check out [gis.stackexchange.com](https://gis.stackexchange.com/)
+- Commune boundaries are now open data: [Limites administratives du Grand-Duché de Luxembourg](https://data.public.lu/en/datasets/limites-administratives-du-grand-duche-de-luxembourg/). The quartiers of Luxembourg and Esch aren't yet though.
 
 What
 ----
